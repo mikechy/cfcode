@@ -3,8 +3,8 @@
 <cfset variables.host = "https://cloudfront.amazonaws.com">
 <cfset variables.apiversion = "2010-11-01">
 <cfset variables.distributionid = "d32q088j4pz12d">
-<cfset variables.awsaccesskeyid = "AKIAJBIMGCEHF6PXOS3A">
-<cfset variables.secretkey = "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">
+<cfset variables.awsaccesskeyid = "xxx">
+<cfset variables.secretkey = "xxx">
 
 <cffunction name="invalidate" returntype="struct" access="public" output="false">
 	<cfargument name="fpaths" type="array" required="true">
